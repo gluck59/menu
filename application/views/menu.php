@@ -107,7 +107,7 @@ error_reporting(E_ERROR);
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						<h4 class="modal-title" id="myModalLabel">Кухня: добавление</h4>
 					</div>
-					<form action="/" method="post" id="addForm" class="form-inline">
+					<form action="/menu/" method="post" id="addForm" class="form-inline">
 						<div class="modal-body">
 							<input name="type" class="form-control" id="addFormInput">
 							<input hidden name="action" value="addType">
@@ -144,7 +144,7 @@ error_reporting(E_ERROR);
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						<h4 class="modal-title" id="myModalLabel">Кухня: редактирование</h4>
 					</div>
-						<form action="/" method="post" id="editForm" class="form-inline">
+						<form action="/menu/" method="post" id="editForm" class="form-inline">
 							<div class="modal-body">
 								<input name="type" class="form-control" id="editFormInput">
 								<input hidden name="action" value="editType">

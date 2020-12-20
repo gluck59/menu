@@ -54,6 +54,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  */
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+set_include_path(get_include_path().PATH_SEPARATOR.__DIR__.PATH_SEPARATOR); ////
 
 /*
  *---------------------------------------------------------------
