@@ -1,0 +1,20 @@
+p.lead {font-size: 17px;}
+.btn {font-size: 14px;}
+.edit, .remove {
+	cursor: pointer;
+	vertical-align: middle!important;
+	line-height: 1em;
+	border: none;
+}
+.remove { color: #ca0216; }
+.edit { color: #fea600; }
+
+
+.editType {
+	cursor: pointer;
+}
+.editType :hover {
+	text-decoration: underline;
+}
+
+.container { margin-top: 2em; }
